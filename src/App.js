@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import AllContainer from "./Components/AllContainer/AllContainer";
+import NavBar from "./Components/NavBar/NavBar";
+import RoadMap from "./Components/RoadMap/RoadMap";
+import Footer from "./Components/Footer/Footer";
+import './App.css'
+import Faq from "./Components/Faq/Faq";
+import ExploreApp from "./Components/ExploreApp/ExploreApp";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ backgroundColor: "#00161D" }}>
+         <NavBar/>
+         <AllContainer/>        
+          <RoadMap />
+           <Faq/>
+           <ExploreApp/>
+        <Footer/>
     </div>
   );
 }
