@@ -1,0 +1,73 @@
+
+.container_about {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+.search-container_about {
+    display: flex;
+    justify-content: center; /* Horizontally centers the search bar */
+    align-items: center; /* Vertically centers the input and button */
+    position: relative;
+}
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    /* border-radius: 20px; */
+    font-size: 16px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Toggle Buttons */
+.toggle-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-btn.active {
+    background-color: #0F4811; /* Dark green */
+    color: #fff;
+    border-color: #0F4811;
+}
+
+.toggle-btn:not(:last-child) {
+    margin-right: 10px;
+}
+
+.toggle-btn:hover {
+    background-color: #ddd;
+}
+
+/* About Us Section */
+.about-us {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    padding-top: 20px;
+}
